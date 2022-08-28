@@ -1,0 +1,10 @@
+in this video we are going to use a node js library which is socket.io
+socket.io helps us to make a two way connection between webserver and client
+
+it is used to make real time chat,video ..etc types of  application 
+
+
+we use a client server and a node server for this chat application
+
+
+https://cssgradient.io/
