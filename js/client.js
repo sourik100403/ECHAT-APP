@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000');
+const socket = io('https://reliable-tarsier-1d4af0.netlify.app/?');
 
 //get dom elements in repective js variable
 const form = document.getElementById('send-container');
