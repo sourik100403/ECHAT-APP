@@ -1,10 +1,10 @@
 //Node server which will handle socket io connections
 
 // const io = require('socket.io')(8000)
-const io = require("socket.io")(`https://reliable-tarsier-1d4af0.netlify.app/?`, {
+const io = require("socket.io")(8000, {
     //handline cors error
     cors: {
-      origin: "https://reliable-tarsier-1d4af0.netlify.app/?",
+      origin: "http://127.0.0.1:5500",
       methods: ["GET", "POST"]
     }
   });
